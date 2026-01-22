@@ -27,6 +27,23 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+/***************************/
+/*class=back*/
+/* id=btn99 backボタン*/
+.back {
+    text-align: left;
+}
+
+#btn99 {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color:
+        whitesmoke;
+    font-size: 1.5em;
+    background: rgb(26, 212, 212);
+    cursor: pointer;
+    /*カーソルをポインターの形 (かたち)にする*/
+}
 
 p {
     margin: 0;
@@ -196,4 +213,5 @@ footer>p {
         margin: 30px;
     }
     
+
 }
