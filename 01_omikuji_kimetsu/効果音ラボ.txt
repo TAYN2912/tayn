@@ -1,0 +1,11 @@
+効果音ラボ　https://soundeffect-lab.info/ 
+きらきら輝く5.mp3  	==> omikuji_sound1.mp3
+鈴を鳴らす.mp3  	==> omikuji_sound2.mp3
+和太鼓でドドン.mp3  ==> omikuji_sound3.mp3
+
+レベルアップ.mp3	==> kimetsu_sound1.mp3
+ジャン！.mp3		==> kimetsu_sound2.mp3
+鳩時計2.mp3			==> kimetsu_sound3.mp3
+ボヨヨーン.mp3		==> kimetsu_sound4.mp3
+爆発3.mp3			==> kimetsu_sound5.mp3
+大剣で斬る.mp3		==> kimetsu_sound6.mp3
