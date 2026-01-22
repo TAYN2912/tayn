@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>メモ機能（きのう）</title>
+
+  <link rel="icon" href="hint.ico">
+  <link rel="stylesheet" href="css/memo.css">
+</head>
+
+<body>
+  <div class="back">
+    <button id="btn99" type="button" onclick="history.back()">back</button>
+  </div>
+
+  <header>
+    <h1>メモ機能（きのう）</h1>
+    <h2>LocalStorage</h1>
+  </header>
+
+  <main>
+    <div class="field01">
+      <label for="textKey">Key:</label>
+      <textarea id="textKey" name="textKey" row="1" cols="40" autofocus placeholder="キーを入力してください"></textarea>
+    </div>
+
+    <div class="field02">
+      <label for="textMemo">Memo:</label>
+      <textarea id="textMemo" name="textMemo" rows="10" cols="40" placeholder="件名を入力してください"></textarea>
+    </div>
+
+    <div class="btn-area">
+      <input id="save" type="submit" class="btn" value="保存">
+    </div>
+    <table class="tablesorter" id="table1"><!--tablesort chg class-"tablesorter"を追加 -->
+      <thead><!--tablesort add-->
+        <tr>
+          <th class="width10">選択</th>
+          <th class="width30">キー</th>
+          <th class="width60">メモ</th>
+        </tr>
+      </thead><!--tablesort add-->
+      <tbody id="list">
+      </tbody>
+    </table>
+
+    <div class="btn-area">
+      <input id="select" type="submit" class="btn" value="選択">
+      <input id="del" type="submit" class="btn" value="削除">
+      <input id="allClear" type="submit" class="btn" value="全て削除">
+    </div>
+
+  </main>
+
+  <!-- tablesort add jQueryライブラリを使用する。 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> <!--tablesort add-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/jquery.tablesorter.min.js"></script>
+  <!--tablesort add-->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.1/js/extras/jquery.metadata.min.js"></script>
+  <!--tablesort add-->
+  <script src="js/memo.js"></script>
+
+</body>
+
+</html>
