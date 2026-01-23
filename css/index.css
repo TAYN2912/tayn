@@ -23,7 +23,7 @@ body{
     Meiryo,
     sans-serif;
     text-align: center;
-    background-image: url(../img/ta.JPG);
+    background-image: url(../img/ta.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -157,4 +157,5 @@ footer> p {
     body{
         background-size: auto 1000px;
     }
+
 }
